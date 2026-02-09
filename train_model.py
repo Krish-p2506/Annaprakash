@@ -14,7 +14,7 @@ DATASET_PATH = r"D:\Annaprakash\data\dataset\lemon"
 # Configuration
 IMG_SIZE = 224
 BATCH_SIZE = 32  # Increased from 8 for better stability (reduce to 16 if you get memory errors)
-EPOCHS = 20      # Increased slightly because EarlyStopping will handle stopping
+EPOCHS = 25      # Increased slightly because EarlyStopping will handle stopping
 
 # 1. Data Augmentation
 datagen = ImageDataGenerator(
